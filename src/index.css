@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  margin: 50px;
+}
+
+.container {
+  position: relative;
+  margin: 200px auto;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+
+.container__block_item {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+
+}
+
+.container__block_item-img {
+  width: 100%;
+  height: 100%;
+}
